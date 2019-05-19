@@ -3,6 +3,7 @@ import java.util.UUID;
 public class Pessoa {
     private UUID id;
     private String nome;
+    private CotaSociedade sócio;
 
     public Pessoa(String nome){
         this.id = UUID.randomUUID();
