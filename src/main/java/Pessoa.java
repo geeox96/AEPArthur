@@ -1,0 +1,19 @@
+import java.util.UUID;
+
+public class Pessoa {
+    private UUID id;
+    private String nome;
+
+    public Pessoa(String nome){
+        this.id = UUID.randomUUID();
+        this.nome = nome;
+    }
+
+    public String getNome() {
+        return nome;
+    }
+
+    public UUID getId() {
+        return id;
+    }
+}
