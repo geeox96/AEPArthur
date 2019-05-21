@@ -1,6 +1,6 @@
 import java.util.UUID;
 
-public class Pessoa {
+public abstract class Pessoa {
     private UUID id;
     private String nome;
     private CotaSociedade sócio;

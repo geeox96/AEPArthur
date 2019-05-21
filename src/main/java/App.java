@@ -1,4 +1,6 @@
 public class App {
-  
-  Pessoa Carlos = new Fisica();
+
+  public static void main(String[] args) {
+
+  }
 }
