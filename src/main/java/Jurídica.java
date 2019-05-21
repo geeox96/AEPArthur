@@ -20,10 +20,10 @@ public class Jurídica extends Pessoa     {
         return capitalSocial;
     }
 
-    public void adicionarSocio(Pessoa sócio){
+    public void adicionarSocio(Pessoa socio, double percentualDeParticipacao){
         CotaSociedade novaCota = new CotaSociedade();
-        novacCota.socio = sócio;
-        novaCota.percentualDeParticipação = percentualDeParticiação;
+        novaCota.socio = socio;
+        novaCota.percentualDeParticipacao = percentualDeParticipacao;
     }
 
     public void removerSocio(Pessoa sócio, double PercentualDeParticipação){
@@ -31,8 +31,8 @@ public class Jurídica extends Pessoa     {
     }
 
     private class CotaSociedade {
-        private double percentualDeParticipação;
-        private Pessoa sócio;
+        private double percentualDeParticipacao;
+        private Pessoa socio;
 
     }
 }
